@@ -274,7 +274,7 @@ class LineaController extends Controller
             'par' => $request->input('par'),
             'directo' => $request->input('directo'),
             'observacion' => $request->input('observacion'),
-            'modificado' => $request->input('modificado'),
+
         ];
 
         foreach ($modificaciones as $campo => $valor_nuevo) {
